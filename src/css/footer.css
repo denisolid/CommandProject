@@ -1,0 +1,243 @@
+.footer .container {
+  padding: 0;
+  
+}
+.footer {
+  background: #7a3145;
+
+  width: 100%;
+  flex-direction: column;
+  justify-content: left;
+  padding: 40px 20px;
+  margin: auto;
+}
+.footer-container {
+  margin-bottom: 40px;
+}
+.footer-title {
+  margin-bottom: 14px;
+  display: flex;
+  gap: 2px;
+}
+.footer-logo {
+  /*padding: 40px;*/
+  /*margin-bottom: 40px;*/
+}
+.footer-logo-icon {
+  fill: #fbfbfb;
+}
+.footer-logo-title {
+  fill: #fbfbfb;
+  width: 148px;
+  height: 12px;
+}
+.footer-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: #fbfbfb;
+}
+.footer-menu {
+  margin-bottom: 80px;
+}
+.footer-menu-list {
+  justify-content: left;
+  gap: 14px;
+  margin-bottom: 40px;
+}
+.footer-item {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: #fbfbfb;
+}
+.footer-contacts-link {
+  min-width: 215px;
+  margin-right: auto;
+  font-style: normal;
+  gap: 14px;
+}
+.footer-list-link {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 14px;
+  max-width: 179px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  color: #fbfbfb;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.footer-list-address {
+}
+.address-link {
+  width: 179px;
+}
+.footer-privacy {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-list {
+  height: 16px;
+  margin-top: 40px;
+  font-size: 12px;
+}
+.right-privacy {
+}
+.footer-policy {
+  font-weight: 500;
+  line-height: 133%;
+  letter-spacing: -0.01em;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.footer-privacy-policy {
+  font-weight: 500;
+  line-height: 117%;
+  letter-spacing: -0.01em;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+/**---------------media---------*/
+@media screen and (min-width: 375px) {
+  .footer .container {
+    max-width: 375px;
+  }
+  .footer {
+    max-width: 375px;
+  }
+}
+/**------------------------*/
+/**-----tablet-----------*/
+
+@media screen and (min-width: 768px) {
+  .footer .container {
+    min-width: 768px;
+    padding: 32px;
+    margin: auto;
+  }
+  .footer-container {
+    margin-bottom: 0;
+  }
+  .footer-part {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer {
+    padding: 32px;
+    flex-direction: row;
+    max-width: 768px;
+    height: 479px;
+  }
+  .footer-logo {
+    width: 265px;
+  }
+  .footer-title {
+    margin-bottom: 25px;
+    gap: 8px;
+  }
+  .footer-logo-icon {
+    width: 18px;
+    height: 18px;
+  }
+  .footer-logo-title {
+    width: 168px;
+    height: 15px;
+  }
+  .footer-text {
+    width: 266px;
+    font-size: 16px;
+  }
+  .footer-menu {
+    margin-left: 224px;
+    margin-bottom: 100px;
+  }
+
+  .footer-menu-list {
+    margin-bottom: 64px;
+  }
+  .footer-list-address {
+    width: 215px;
+  }
+  .footer-contacts-link {
+    padding-top: 0;
+  }
+  .addresss-link {
+    width: 215px;
+    font-size: 18px;
+  }
+  .footer-list-link {
+    font-size: 18px;
+  }
+  .footer-list {
+    margin-top: 0;
+  }
+  .footer-privacy {
+    gap: 400px;
+  }
+}
+/*-----------------------*/
+/**--------desktop---------*/
+@media screen and (min-width: 1280px) {
+  .footer .container {
+    min-width: 1280px;
+    padding: 100px;
+    margin: auto;
+  }
+  .footer {
+    min-width: 1280px;
+    padding: 50px 100px;
+    height: 391px;
+    margin: auto;
+  }
+  .footer-part {
+    min-width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 125px;
+    height: 146px;
+  }
+  .footer-text {
+    width: 266px;
+    height: 103px;
+    font-size: 16px;
+  }
+  .footer-menu {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+  .footer-menu-list {
+    margin-bottom: 0;
+  }
+  .footer-contacts-link {
+    margin-left: 121px;
+  }
+  .footer-list-link {
+    gap: 25px;
+  }
+  .footer-list-address {
+    padding: 0;
+  }
+  .address-link {
+    width: 215px;
+    height: 85px;
+  }
+  .footer-privacy {
+    /* gap: 660px; */
+  }
+
+  .footer-list {
+    font-size: 18px;
+  }
+}
+.footer-bg {
+  background-color: #7a3145;
+position: relative;
+  bottom: 1px;
+}
